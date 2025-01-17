@@ -147,4 +147,3 @@ startTimer0();
 while (LPC_GPIO0->FIOPIN & ECHO); // Wait for a LOW on ECHO pin
 echoTime = stopTimer0(); // Stop Counting 
 //LPC_GPIO0->FIOCLR = LED_Pinsel << 4;
-dis…
